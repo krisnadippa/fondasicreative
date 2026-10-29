@@ -10,6 +10,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-barriecito: var(--font-barriecito);
+}
+
+.font-barriecito {
+  font-family: var(--font-barriecito), cursive, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
